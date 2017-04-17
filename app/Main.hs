@@ -1,6 +1,6 @@
-module Main where
+{-# LANGUAGE OverloadedStrings, DeriveGeneric #-}
 
 import Lib
 
 main :: IO ()
-main = get "http://ronanmccabe.me/ping"
+main = go
